@@ -50,6 +50,8 @@ public class ParallecGlobalConfig {
     /** The ning fast client connection timeout millis. */
     public static int ningFastClientConnectionTimeoutMillis = 4000;
 
+	public static int ningFastClientIdleConnectionInPoolTimeoutMillis;
+
     /** The ssh connection timeout millis default. */
     public static int sshConnectionTimeoutMillisDefault = 5000;
 
